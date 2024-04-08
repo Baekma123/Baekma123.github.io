@@ -1,0 +1,52 @@
+.mostbackground {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f9;
+}
+.profile_img {
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.topbox {
+    width:80%;
+    height: 50%;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbox_profile1 {
+    height: 50%;
+}
+
+
+
+.topbox_profile1_introduce {
+    width: 170px;
+    height: 170px;
+    float:left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .mostbackground {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    }
+}
+@media screen and (max-width: 600px) {
+    .mostbackground {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f9;
+    }
+}
